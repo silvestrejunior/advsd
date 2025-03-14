@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ButtonsFooter = () => {
     const handleWhatsAppRedirect = () => {
-      const numero = "5544999999999"; // Substitua pelo número correto
+      const numero = "5544999887612"; // Substitua pelo número correto
       const mensagem = encodeURIComponent("Olá, gostaria de mais informações!");
   
       const urlDesktop = `https://web.whatsapp.com/send?phone=${numero}&text=${mensagem}`;
@@ -31,7 +31,7 @@ const ButtonsFooter = () => {
                       />
         </a>
         <a
-          href="https://www.instagram.com/joao_dauf/"
+          href="https://www.instagram.com/santanadaufenbach/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-pink-400 hover:underline"

@@ -58,8 +58,11 @@ export default function Home() {
 
       </main>
       <footer id="contato" className="row-start-3 flex gap-6 flex-col sm:flex-row-reverse items-center justify-center p-7 w-full bg-[#ABABAB]">
-        <div className="hidden md:flex">
-          <span>Localização</span>
+        <div className="hidden md:flex flex-col text-gray-800 ">
+          <span className="text-xl">Contato</span>
+          <p>(44) 3026-4953</p>
+          <p>(44) 99988-7612</p>
+          <p>joao@advocaciasd.com.br</p>
         </div>
         <ButtonsFooter />
         <Image
@@ -70,7 +73,7 @@ export default function Home() {
           height={120}
         />
 
-      </footer>
-    </div>
+      </footer >
+    </div >
   );
 }
