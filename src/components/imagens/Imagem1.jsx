@@ -21,7 +21,7 @@ const Imagem1 = () => {
                 width={280}
                 height={100}
                 className="h-full object-left"
-                alt="Imagem homem negro com logo da advocacia"
+                alt="Imagem homem com logo da advocacia"
             />
 
             {/* Texto sobre a imagem no mobile */}

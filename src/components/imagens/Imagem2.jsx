@@ -10,7 +10,7 @@ const Imagem2 = () => {
                 width={320}
                 height={90}
                 className="h-full object-right ml-2 mb-3"
-                alt="Imagem homem negro com logo da advocacia"
+                alt="Imagem mulher medica com logo da advocacia"
             />
             <div className="hidden md:flex flex-col gap-7">
                 <h2 className="text-white text-xl md:text-3xl text-center font-bold px-4">
